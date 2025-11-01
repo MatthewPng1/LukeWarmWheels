@@ -5,7 +5,7 @@ using UnityEngine;
 public class SimplePickup : MonoBehaviour
 {
     public enum pickupType { coin, gem, health }
-
+    public int value = 1;
     public pickupType pt;
     [SerializeField] GameObject PickupEffect;
 
@@ -20,7 +20,10 @@ public class SimplePickup : MonoBehaviour
                 {
                     SimpleGameManager.instance.IncrementCoinCount();
                 }
-
+            if (CoinManager.Instance != null)
+            {
+                CoinManager.Instance.AddCoins(value);
+            }                
                 if (PickupEffect != null)
                     Instantiate(PickupEffect, transform.position, Quaternion.identity);
 

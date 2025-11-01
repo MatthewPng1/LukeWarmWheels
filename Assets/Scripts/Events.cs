@@ -21,4 +21,9 @@ public class Events : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void LoadSceneByName(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
