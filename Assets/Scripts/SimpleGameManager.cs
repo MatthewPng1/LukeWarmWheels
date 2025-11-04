@@ -62,6 +62,13 @@ public class SimpleGameManager : MonoBehaviour
         // Find all objects with Coin tag in the scene
         GameObject[] coins = GameObject.FindGameObjectsWithTag("Coin");
         totalCoins = coins.Length;
+
+        // Register this level's total with the global CoinManager so we can compute
+        // the total available coins across the whole playthrough.
+        if (CoinManager.Instance != null)
+        {
+            CoinManager.Instance.RegisterLevelTotal(SceneManager.GetActiveScene().name, totalCoins);
+        }
     }
 
     public void LevelComplete()

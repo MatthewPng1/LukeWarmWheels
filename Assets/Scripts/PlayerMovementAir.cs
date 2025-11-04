@@ -94,23 +94,29 @@ public class PlayerMovementAir : MonoBehaviour
         // Use a more reliable circle overlap check instead of raycasts
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundCheckRadius, groundLayer);
 
+        // Reset grounded/platform state - we'll recompute from overlaps
         isGrounded = false;
+        isOnPlatform = false;
+
         foreach (Collider2D col in colliders)
         {
-            // Ignore our own collider
-            if (col.gameObject != gameObject)
-            {
-                // Check if we're actually above the collider by comparing positions
-                if (groundCheck.position.y > col.bounds.min.y)
-                {
-                    Vector2 closestPoint = col.ClosestPoint(groundCheck.position);
-                    float verticalDistance = Mathf.Abs(groundCheck.position.y - closestPoint.y);
+            if (col == null || col.gameObject == gameObject) continue;
 
-                    // Only consider grounded if we're close enough to the surface
-                    if (verticalDistance < groundCheckRadius * 0.5f)
+            // Check if we're actually above the collider by comparing positions
+            if (groundCheck.position.y > col.bounds.min.y)
+            {
+                Vector2 closestPoint = col.ClosestPoint(groundCheck.position);
+                float verticalDistance = Mathf.Abs(groundCheck.position.y - closestPoint.y);
+
+                // Only consider grounded if we're close enough to the surface
+                if (verticalDistance < groundCheckRadius * 0.5f)
+                {
+                    isGrounded = true;
+
+                    // mark platform if collider is a platform
+                    if (col.CompareTag("Platform"))
                     {
-                        isGrounded = true;
-                        break;
+                        isOnPlatform = true;
                     }
                 }
             }
@@ -120,6 +126,7 @@ public class PlayerMovementAir : MonoBehaviour
         if (rb.linearVelocity.y < -2f)
         {
             isGrounded = false;
+            isOnPlatform = false;
         }
     }
 

@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Disabled Prototype.unity
     guid: 2d35abbb55ad01f4a88b62e164dd677c
+  - enabled: 1
+    path: Assets/Scenes/EndGameScreen.unity
+    guid: ba064814a3371f846825390981a4ef2a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
