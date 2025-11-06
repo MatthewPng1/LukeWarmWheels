@@ -18,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Audio")]
     public AudioSource deathSound;
 
+    [Header("Animation")]
+    public Animator playerAnimator;
+
     void Start()
     {
         playerCollider = GetComponent<BoxCollider2D>();
@@ -68,8 +71,21 @@ public class PlayerMovement : MonoBehaviour
             float currentAbsX = Mathf.Abs(transform.localScale.x);
             transform.localScale = new Vector3(currentAbsX * Mathf.Sign(horizontalMovement), transform.localScale.y, transform.localScale.z);
         }
-        
+
         rb.linearVelocity = new Vector2(newVelocityX, rb.linearVelocity.y);
+        // Update movement animation
+        if (playerAnimator != null)
+        {
+            // Set run animation based on horizontal movement
+            if (Mathf.Abs(horizontalMovement) > 0.01f)
+            {
+                playerAnimator.SetBool("run", true);
+            }
+            else
+            {
+                playerAnimator.SetBool("run", false);
+            }
+        }
     }
 
     private void CheckGrounded()

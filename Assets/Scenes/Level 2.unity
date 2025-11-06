@@ -3295,6 +3295,7 @@ MonoBehaviour:
   groundCheck: {fileID: 1117750177}
   jumpForce: 4
   deathSound: {fileID: 728517946}
+  playerAnimator: {fileID: 1010292489}
 --- !u!114 &728517945
 MonoBehaviour:
   m_ObjectHideFlags: 0
