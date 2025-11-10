@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 223296952}
   - component: {fileID: 223296953}
   - component: {fileID: 223296954}
+  - component: {fileID: 223296955}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -420,7 +421,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 223296939}
   selectedCommands:
-  - {fileID: 223296954}
+  - {fileID: 223296955}
   variables: []
   description: 
   stepPause: 0
@@ -707,8 +708,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -252.905
-    y: 221.0989
+    x: -253.905
+    y: 220.0989
     width: 115.76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -732,6 +733,7 @@ MonoBehaviour:
   - {fileID: 223296953}
   - {fileID: 223296948}
   - {fileID: 223296952}
+  - {fileID: 223296955}
   - {fileID: 223296947}
   suppressAllAutoSelections: 0
 --- !u!114 &223296940
@@ -1058,7 +1060,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &223296953
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1075,7 +1077,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &223296954
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1103,6 +1105,25 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &223296955
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223296893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: typing game (BN4701)
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &232324498
 GameObject:
   m_ObjectHideFlags: 0

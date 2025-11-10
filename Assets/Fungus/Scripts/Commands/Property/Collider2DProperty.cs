@@ -72,9 +72,9 @@ namespace Fungus
                         case Property.UsedByComposite:
 
                         // #if UNITY_6000
-                        //     iob.Value = target.compositeOperation != Collider2D.CompositeOperation.None;
+                        iob.Value = target.compositeOperation != Collider2D.CompositeOperation.None;
                         // #else
-                            iob.Value = target.usedByComposite;
+                            //iob.Value = target.usedByComposite;
                         // #endif
 
                             break;
@@ -117,7 +117,7 @@ namespace Fungus
                         // #if UNITY_6000
                         //     target.compositeOperation = iob.Value;
                         // #else
-                            target.usedByComposite = iob.Value;
+                            target.compositeOperation = iob.Value ? Collider2D.CompositeOperation.Merge : Collider2D.CompositeOperation.None;
                         // #endif
 
                             break;

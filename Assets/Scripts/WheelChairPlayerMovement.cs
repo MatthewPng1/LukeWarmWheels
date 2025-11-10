@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class PlayerMovement : MonoBehaviour
+public class WheelChairPlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public float speed = 5f;

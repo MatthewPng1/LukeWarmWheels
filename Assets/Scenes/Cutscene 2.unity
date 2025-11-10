@@ -327,15 +327,13 @@ GameObject:
   - component: {fileID: 223296899}
   - component: {fileID: 223296928}
   - component: {fileID: 223296934}
-  - component: {fileID: 223296933}
   - component: {fileID: 223296932}
   - component: {fileID: 223296931}
   - component: {fileID: 223296930}
   - component: {fileID: 223296929}
-  - component: {fileID: 223296936}
-  - component: {fileID: 223296935}
   - component: {fileID: 223296937}
   - component: {fileID: 223296938}
+  - component: {fileID: 223296939}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -368,11 +366,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 223296928}
   commandList:
-  - {fileID: 223296936}
-  - {fileID: 223296935}
   - {fileID: 223296929}
   - {fileID: 223296934}
-  - {fileID: 223296933}
+  - {fileID: 223296939}
   - {fileID: 223296937}
   - {fileID: 223296938}
   - {fileID: 223296932}
@@ -392,7 +388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 421.905, y: -76.59891}
+  scrollPos: {x: 420.905, y: -76.59891}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -405,7 +401,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 223296899}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 223296931}
   variables: []
   description: 
   stepPause: 0
@@ -510,7 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: I should get my wallet and phone, then go see Ryan before leaving.
+  storyText: I just need to get my wallet and phone, then go see Ryan before leaving.
   description: 
   character: {fileID: 809875677}
   portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
@@ -550,34 +547,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &223296933
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223296893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 30
-  indentLevel: 0
-  storyText: Can't believe I still dream of that day I got into an accident after
-    all this time.
-  description: 
-  character: {fileID: 809875677}
-  portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &223296934
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -592,7 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: What a weird dream...
+  storyText: Alright, I'm done cleaning.
   description: 
   character: {fileID: 809875677}
   portrait: {fileID: 0}
@@ -605,51 +574,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &223296935
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223296893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 36
-  indentLevel: 0
-  storyText: Yawn...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &223296936
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223296893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 35
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
 --- !u!114 &223296937
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -664,8 +588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: 'Ever since I was paralysed from waist down, my <jump> ability has been
-    greatly affected. '
+  storyText: Ever since I was paralysed from waist down, my <jump> ability has been
+    greatly affected. Going downstairs has become difficult.
   description: 
   character: {fileID: 809875677}
   portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
@@ -694,6 +618,33 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Good thing the house has a wheelchair elevator that I can click to get
     around.
+  description: 
+  character: {fileID: 809875677}
+  portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &223296939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223296893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: Now I just need to head down and grab breakfast.
   description: 
   character: {fileID: 809875677}
   portrait: {fileID: -4490620890554995812, guid: a3384e5207d65c3469240f50f536e1f3, type: 3}

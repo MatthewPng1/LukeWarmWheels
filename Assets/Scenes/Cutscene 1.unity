@@ -345,8 +345,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 223296899}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -469,7 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: After a long week, Alex decides to head home after dinner to celebrate
+  storyText: After a long week, Alex decides to head home after dinner celebrating
     bookout day with his friends.
   description: 
   character: {fileID: 0}

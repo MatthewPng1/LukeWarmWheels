@@ -8,41 +8,53 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 07d404ae2f2e9404ab61c78efb374629
-  - enabled: 0
-    path: Assets/Scenes/Level (don't play this).unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 0
-    path: Assets/Scenes/Prefabs.unity
-    guid: c6f4e228bd8a4bf4fb6b9a9d0750455d
-  - enabled: 0
-    path: Assets/Scenes/Disabled Prototype.unity
-    guid: 2d35abbb55ad01f4a88b62e164dd677c
-  - enabled: 0
-    path: Assets/Scenes/RoomLevel.unity
-    guid: 12f7b6fda98529848a90319c7fe3fb3c
   - enabled: 1
     path: Assets/Scenes/Cutscene 1.unity
     guid: 26323221046642d4a87fc70bab2ffdd7
   - enabled: 1
-    path: Assets/Scenes/level 1.unity
-    guid: f3a7e444859952049a262e86cae76021
-  - enabled: 1
     path: Assets/Scenes/Cutscene 2.unity
     guid: 8f7724bfcd7b2124ea61264136371e8b
-  - enabled: 1
-    path: Assets/Scenes/level 2.unity
-    guid: 125525e8cff04f14591e8ea820e9e431
   - enabled: 1
     path: Assets/Scenes/Cutscene 3.unity
     guid: 67c8aa656ce73ee48adea69448452ac9
   - enabled: 1
-    path: Assets/Scenes/level 3.unity
-    guid: 7128c189b5a6c89408fae58c223cd6af
+    path: Assets/Scenes/Hospital Scene.unity
+    guid: 8ee9bc051407f47bf816dcf1c16ab119
   - enabled: 1
-    path: Assets/Scenes/Cutscene 4.unity
-    guid: 022d0c37e84c900449eb62d27ec1beda
+    path: Assets/Scenes/BusScene.unity
+    guid: 5939cce547519418296872f37532e801
+  - enabled: 1
+    path: Assets/Scenes/Waking Up.unity
+    guid: 990ec73b8804142bc851b37f79980596
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 8dd24c266de1e4ff39550b7e9801ca8b
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 56365a85c7d2c4195abfcfcea463a9b4
   - enabled: 1
     path: Assets/Scenes/EndGameScreen.unity
     guid: ba064814a3371f846825390981a4ef2a
+  - enabled: 1
+    path: Assets/Scenes/level 1.unity
+    guid: f3a7e444859952049a262e86cae76021
+  - enabled: 1
+    path: Assets/Scenes/level 2.unity
+    guid: 125525e8cff04f14591e8ea820e9e431
+  - enabled: 1
+    path: Assets/Scenes/level 3.unity
+    guid: 7128c189b5a6c89408fae58c223cd6af
+  - enabled: 1
+    path: Assets/Scenes/CollectTheClothes.unity
+    guid: 2c6345c3ba347b440897bf6d6c472d48
+  - enabled: 1
+    path: Assets/Scenes/typing game (BN4701).unity
+    guid: 83b49df5d0503324991bf6a3b5a6bdab
+  - enabled: 0
+    path: Assets/Scenes/Get To Bus Stop.unity
+    guid: 98962f3a543af419ab6b61440b01316e
+  - enabled: 0
+    path: Assets/Scenes/Cutscene 4.unity
+    guid: 022d0c37e84c900449eb62d27ec1beda
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

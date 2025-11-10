@@ -439,7 +439,7 @@ namespace Fungus
 
             options.character.State.SetPortraitImageBySprite(options.portrait);
             options.character.State.portraitImage.rectTransform.gameObject.SetActive(true);
-            
+
             if(options.character.State.portraitImage.color != Color.white)
             {
                 LeanTween.color(options.character.State.portraitImage.rectTransform, Color.white, duration)
