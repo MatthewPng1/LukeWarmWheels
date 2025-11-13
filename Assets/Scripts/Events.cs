@@ -7,6 +7,8 @@ public class Events : MonoBehaviour
 {
     public void Menu()
     {
+        // Reset all persistent managers (coins, time, meters, score) before returning to menu
+        GameResetter.ResetAll();
         SceneManager.LoadScene(0);
     }
     public void Level1()

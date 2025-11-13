@@ -1152,7 +1152,6 @@ GameObject:
   - component: {fileID: 593378283}
   - component: {fileID: 593378284}
   - component: {fileID: 593378282}
-  - component: {fileID: 593378279}
   - component: {fileID: 593378280}
   - component: {fileID: 593378275}
   - component: {fileID: 593378290}
@@ -1164,6 +1163,8 @@ GameObject:
   - component: {fileID: 593378298}
   - component: {fileID: 593378303}
   - component: {fileID: 593378304}
+  - component: {fileID: 593378305}
+  - component: {fileID: 593378306}
   m_Layer: 0
   m_Name: Flowchart (5)
   m_TagString: Untagged
@@ -1432,7 +1433,7 @@ MonoBehaviour:
   itemId: 299
   indentLevel: 0
   storyText: 'An unfamiliar voice comes from behind Alex. He turns his head and before
-    he knew it, he was felt a jerk as his wheelchair was being pushed by a stranger. '
+    he knew it, he felt a jerk as his wheelchair was being pushed by a stranger. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1703,7 +1704,7 @@ MonoBehaviour:
   itemId: 289
   indentLevel: 0
   storyText: He opens his phone to watch a drama show he's been keeping up with recently.
-    He puts on both his earpiece on to drown the noise.
+    He puts on both his earpieces on to drown the noise.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1783,7 +1784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2949.1296
+    x: 2950.1296
     y: 75.09222
     width: 94.46
     height: 40
@@ -1856,8 +1857,9 @@ MonoBehaviour:
   - {fileID: 593378220}
   - {fileID: 593378219}
   - {fileID: 593378227}
-  - {fileID: 593378274}
   - {fileID: 593378250}
+  - {fileID: 593378305}
+  - {fileID: 593378274}
   - {fileID: 593378256}
   - {fileID: 593378226}
   - {fileID: 593378225}
@@ -1877,7 +1879,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2692.39
-    y: -150.76122
+    y: -154.9553
     width: 180.55
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1914,8 +1916,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2486.1077
-    y: 115.44819
+    x: 2481.5408
+    y: 91.91882
     width: 120.15
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3586,7 +3588,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2092.506
-    y: 1.3235683
+    y: 0.0077792406
     width: 133.95999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4136,7 +4138,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1837.9799
-    y: -11.818648
+    y: -13.134438
     width: 180.46
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4427,7 +4429,7 @@ MonoBehaviour:
   itemId: 163
   indentLevel: 0
   storyText: "I can either wait for the bus or just go. Next one\u2019s in\u2026
-    15 minutes? A bit long sia. How far is the bus interchange if I walk?"
+    15 minutes? A bit long sia. How far is the bus interchange if I go directly?"
   description: 
   character: {fileID: 1993348883}
   portrait: {fileID: 0}
@@ -4506,7 +4508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1414.2015
+    x: 1415.5173
     y: 139.24266
     width: 163.47
     height: 40
@@ -4541,11 +4543,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1264.2303, y: 234.57614}
+  scrollPos: {x: -1857.4979, y: 230.8956}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 392
-  zoom: 0.64000034
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4622,7 +4624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 325
   indentLevel: 0
-  storyText: Alex cuts him off gently
+  storyText: Alex cuts him off gently.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4808,8 +4810,7 @@ MonoBehaviour:
   itemId: 318
   indentLevel: 0
   storyText: 'The guy smiles and agrees. They have a conversation to class, introducing
-    themselves and learning more about wheelchair ettiquette. Alex thinks to himself
-    that he seems nice, he''s glad he told him how he felt. '
+    themselves and learning more about wheelchair ettiquette. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5221,9 +5222,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 335
   indentLevel: 0
-  storyText: 'Alex moves to his assigned seat at the back and takes out his laptop.
+  storyText: Alex moves to his assigned seat at the back and takes out his laptop.
     He opens Examplify and looks for the test paper, while he scrambles through a
-    few lecture notes while he still can. '
+    few lecture notes.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5359,9 +5360,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 330
   indentLevel: 0
-  storyText: Alex reaches just in time before his class starts. He walks in and notices
-    everyone sitting in alternating seats. At the back of the class, he sees his
-    friend, Fred.
+  storyText: Alex reaches just in time before his class starts. He wheels in and
+    notices everyone sitting in alternating seats. At the back of the class, he sees
+    his friend, Fred.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5478,8 +5479,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 344
   indentLevel: 0
-  storyText: One the round starts, click on a blank to select it and spell out the
-    word using keyboard letters. All the best!!
+  storyText: Once a round starts, click on a black box to select it and spell out
+    the word using keyboard letters. All the best!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5973,7 +5974,7 @@ MonoBehaviour:
   - {fileID: 593378282}
   - {fileID: 593378281}
   - {fileID: 593378280}
-  - {fileID: 593378279}
+  - {fileID: 593378306}
   - {fileID: 593378275}
   - {fileID: 593378278}
   - {fileID: 593378292}
@@ -6030,24 +6031,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &593378279
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd9605f8d82faa9409fc31a2c5b3aa78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 378
-  indentLevel: 0
-  meter: 0
-  value:
-    floatRef: {fileID: 0}
-    floatVal: -20
 --- !u!114 &593378280
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6543,8 +6526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 392
   indentLevel: 0
-  storyText: This game will play for 5 rounds. Memorise as many words on the screen
-    as you can before time runs out.
+  storyText: This game will play for 5 rounds. Memorise the words on the screen before
+    time runs out.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6572,6 +6555,51 @@ MonoBehaviour:
   parentBlock: {fileID: 593378216}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &593378305
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 393
+  indentLevel: 0
+  storyText: 'He seems nice, I''m glad I told him how I felt. '
+  description: 
+  character: {fileID: 666579161}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &593378306
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd113aee8c39ed4cb1acdf9deb19ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 394
+  indentLevel: 0
+  meter: 0
+  delta:
+    floatRef: {fileID: 0}
+    floatVal: -20
 --- !u!1 &623460747
 GameObject:
   m_ObjectHideFlags: 0
