@@ -1162,10 +1162,8 @@ GameObject:
   - component: {fileID: 593378294}
   - component: {fileID: 593378299}
   - component: {fileID: 593378298}
-  - component: {fileID: 593378301}
-  - component: {fileID: 593378300}
-  - component: {fileID: 593378302}
   - component: {fileID: 593378303}
+  - component: {fileID: 593378304}
   m_Layer: 0
   m_Name: Flowchart (5)
   m_TagString: Untagged
@@ -4509,7 +4507,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1414.2015
-    y: 115.805176
+    y: 139.24266
     width: 163.47
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4517,7 +4515,7 @@ MonoBehaviour:
   itemId: 151
   blockName: Post-Getting-Ready
   description: Navigating his way to school. Info about his neighbourhood.
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 593378304}
   commandList:
   - {fileID: 593378215}
   - {fileID: 593378206}
@@ -4543,7 +4541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2018.9178, y: 314.26364}
+  scrollPos: {x: -1264.2303, y: 234.57614}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 392
@@ -6531,69 +6529,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &593378300
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 593378301}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
---- !u!114 &593378301
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 2457.98
-    y: -50.20125
-    width: 110.19
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 390
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 593378300}
-  commandList:
-  - {fileID: 593378302}
-  suppressAllAutoSelections: 0
---- !u!114 &593378302
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593378084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 391
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 593378189}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &593378303
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6622,6 +6557,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &593378304
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593378084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 593378216}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &623460747
 GameObject:
   m_ObjectHideFlags: 0
