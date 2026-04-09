@@ -1,39 +1,25 @@
 <<<<<<< HEAD
-# 2D-platformer-Game-Unity
-2D Tilemap Platformer Unity
-Create your own 2D platformer game with ease using this Unity project template. This repository provides a foundation for building classic side-scrolling platformers with Unity's powerful 2D features.
+LukeWarm Wheels
 
-## Features:
-Tilemap Integration: Leverage Unity's Tilemap system for efficient level design and quick iteration.
+A serious game developed in Unity to raise awareness of youth mental health, following the story of a student in a wheelchair navigating daily challenges to reach school. Combines multiple gameplay elements to educate and engage players.
 
-Player Controller: A customizable player controller script with smooth movement and double jump movement.
+Features
+Platformer Game: Navigate obstacles in a 2D side-scrolling environment
+Top-Down Maze Mini-Game: Problem-solving challenges reflecting daily navigation difficulties
+Visual Novel Storytelling: Narrative sequences highlighting emotional and social challenges faced by youth
+Player Interaction: Customizable controls and accessible gameplay features to simulate inclusive experiences
+Purpose
 
-Animated Player Controller: Player control with Idle, Run, Jump animations implemented in the project.
+Designed as a serious game to educate players about youth mental health and accessibility challenges, promoting empathy and understanding through interactive gameplay.
 
-Game Manager and UI Manager: Systems to manage gameplay.
+Tech Stack
+Unity (C#) for gameplay and interaction
+2D Tilemap, UI systems, and animation for immersive storytelling
+Multi-genre integration: platformer, top-down maze, and visual novel
+Getting Started
+Clone the repository
+Open the project in Unity (compatible with Unity 20xx.xx)
+Explore scenes for gameplay mechanics and narrative sequences
+License
 
-Player Death and Respawning: Respawn and death system.
-
-Platformer Mechanics: Jumping, double-jumping, and grounded movement are all set up for a classic platformer feel.
-
-Coins and Pickups: Coins and Pickups to make gameplay feel fun.
-
-## Getting Started:
-Clone the repository.
-Open the project in Unity (compatible with Unity 20xx.xx).
-Explore the sample scenes and adapt them to fit your game concept.
-Customize player sprites, tilesets, and level design to create your unique platformer experience.
-Documentation:
-Refer to the Wiki for detailed documentation and guidelines on using the template, implementing new features, and optimizing your game.
-
-## Contributions:
-Contributions are welcome! Whether you want to fix bugs, improve existing features, or add new functionality, feel free to fork the repository and submit pull requests.
-
-## License:
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-=======
-# Test-game
->>>>>>> 613f93cef00613b8d1562ac802194ba111369d4e
+MIT License
