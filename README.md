@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 LukeWarm Wheels
 
 A serious game developed in Unity to raise awareness of youth mental health, following the story of a student in a wheelchair navigating daily challenges to reach school. Combines multiple gameplay elements to educate and engage players.
@@ -20,6 +19,9 @@ Getting Started
 Clone the repository
 Open the project in Unity (compatible with Unity 20xx.xx)
 Explore scenes for gameplay mechanics and narrative sequences
-License
 
+
+Unity Play link: https://play.unity.com/en/games/164312b7-8535-4bc2-96fa-a805b19bfcfb/lukewarm-wheels
+
+License
 MIT License
